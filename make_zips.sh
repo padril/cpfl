@@ -1,13 +1,13 @@
 #!/bin/bash
 
 rm ./zips/*.zip
-for f in ./updated/*; do
+cd ./updated/
+for f in *; do
     if [ -d $f ]; then
-        cd $f
-        rm $(basename $f).zip
-        zip $(basename $f).zip *
-        cd -
-        mv $f/$(basename $f).zip ./zips/
+        rm $f.zip
+        zip -r $f.zip $f/
+        mv $f.zip ../zips/
     fi
 done
+cd -
 
