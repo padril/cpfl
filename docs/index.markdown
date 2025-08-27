@@ -5,17 +5,14 @@
 layout: home
 ---
 
-As a *very* minimal example:
+Welcome to **Computer Programming for Linguists**. This is an online course to
+teach you the basics of Python (and eventually introductory computational
+linguistics). It's geared towards linguists, and will use examples related to
+linguistics at many points.
 
-- <a href="{{site.url}}{{site.baseurl}}/assets/notebooks/Hub.ipynb" download>Download this notebook</a>
-- Open it in **Jupyter Lab**
-- Follow the instructions within
-- Voila! You have installed the start of GEIF
+We recommend that you head over to *Getting Started* for more of a rundown. If
+you want to know more about who we are, check out *About*.
 
-For now, the passwords are:
-
-- Module_A
-- Module_B
-- Module_C
-- Module_D
+We're also hosting a workshop in early September! More information will be
+available here shortly.
 

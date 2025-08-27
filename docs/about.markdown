@@ -4,15 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+**Computer Programming for Linguists** is a project run from the University of
+Toronto Linguistics Department by Ewan Dunbar, Shohini Bhattasali, Barend
+Beekhuizen, Leo Peckham, and Michael Ong. It's funded by the Graduate Education
+Innovation Fund (GEIF).
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+If you want to know more, please send an email to: leo (dot) peckham (at) mail
+(dot) utoronto (dot) ca.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
