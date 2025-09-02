@@ -70,18 +70,39 @@ it, follow the instructions in the notebook to start on module A.
 
 ### Configuring Jupyter
 
-No configuring should be necessary for modules A through D. However, when more
+For some exercises, we might ask you to refer to a "line number". To enable
+these, press `Shift+L`. We'll remind you of this in any exercises where we use
+this.
+
+No more configuring should be necessary for modules A through D. However, when more
 modules are released, you may want to return here for further instructions.
 
 ### Downloading New Modules
 
-TODO. For now, follow the instructions from `Hub.ipynb`.
+(These instructions are repeated in `Hub.ipynb`)
+
+For your first module, you should be able to simply press the "Restart the
+kernel and run all cells" button at the top of your screen (see image).
+![image][runall-img]. Then, in the table showcasing the content for modules A
+through D, click on module A lesson 1 to get started.
+
+For each next module, you'll get a password from passing the previous
+end-of-module test. Specifically, when you autograde the notebook and get a score of 4/5, at the bottom of the output you should see the password in quotation marks. Enter this into the `password = "..."` variable, save the
+file with `Ctrl+S`, and then run all cells. This will download the next module for you.
 
 ### Autograding
 
-TODO. For now, follow the instructions from the notebooks.
+The autograder is a way to check your progess. In any notebook that can be
+autograded, you should see a cell with some code and a comment saying "run this
+cell to autograde this notebook". Running this cell might take a while, but you
+should see as output below which questions you got wrong, what your final score
+was, and some hints on what might fix your errors.
+
+**Remember to always save your notebook with `Ctrl+S` before running the
+autograder**.
 
 [datatools-url]: https://datatools.utoronto.ca/
 [datatools-img]: assets/images/datatools.png
 [upload-img]: assets/images/upload.png
+[runall-img]: assets/images/runall.png
 
