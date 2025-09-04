@@ -1,20 +1,28 @@
 #!/bin/bash
 
+custom_zip() {
+    zip -r $1 $2 -x \
+        \*/.mypy_cache/\* \
+        \*/__pycache__/\* \
+        \*/.ipynb_checkpoints/\* \
+        \*/.log
+}
+
 cd updated/
 
 rm ../docs/assets/zips/*.zip
 cp ./Hub.ipynb ../docs/assets/notebooks/
 
-zip -r setup.zip ./Module_A/
+custom_zip setup.zip ./Module_A/
 mv setup.zip ../docs/assets/zips/
 
-zip -r bubblegum.zip ./Module_B/
+custom_zip bubblegum.zip ./Module_B/
 mv bubblegum.zip ../docs/assets/zips/
 
-zip -r calisson.zip ./Module_C/
+custom_zip calisson.zip ./Module_C/
 mv calisson.zip ../docs/assets/zips/
 
-zip -r dumle.zip ./Module_D/
+custom_zip dumle.zip ./Module_D/
 mv dumle.zip ../docs/assets/zips/
 
 cd -
